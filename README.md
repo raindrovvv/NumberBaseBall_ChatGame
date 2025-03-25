@@ -1,5 +1,4 @@
 # NumberBaseBall_ChatGame
----
 
 ## 1️⃣ 개발 프로세스 가이드
 
