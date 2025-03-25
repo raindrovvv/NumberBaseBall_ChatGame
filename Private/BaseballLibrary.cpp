@@ -33,14 +33,6 @@ FString UBaseballLibrary::GenerateRandomNumber()
 // 사용자가 입력한 문자열이 조건(길이, 범위, 중복)에 맞는지 검증하고, 정제된 입력값을 반환
 bool UBaseballLibrary::IsValidInput(const FString& Input, FString& OutCleanedInput)
 {
-    // 특수 명령어 처리
-    if (Input.StartsWith(TEXT("/")))
-    {
-        // 특수 명령어는 별도 함수에서 처리하므로 여기서는 유효하지 않은 입력으로 간주
-        UE_LOG(LogTemp, Warning, TEXT("🔄IsValidInput: 특수 명령어 감지됨"));
-        return false;
-    }
-
     OutCleanedInput.Empty();
     for (int32 i = 0; i < Input.Len(); i++)
     {
