@@ -1,5 +1,7 @@
 # NumberBaseBall_ChatGame
 
+Read.me : https://raindrovvv.tistory.com/61
+
 ## 1️⃣ 개발 프로세스 가이드
 
 ### **1 단계 : 코드 준비**
